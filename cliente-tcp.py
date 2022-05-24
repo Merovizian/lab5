@@ -8,5 +8,5 @@ print 'Para sair use CTRL+X\n'
 msg = raw_input("Digite sua mensagem: ")
 while msg <> '\x18':
     tcp.send (msg)
-    msg = raw_input()
+    msg = raw_input("Digite sua mensagem: ")
 tcp.close()
