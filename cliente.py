@@ -5,7 +5,11 @@ udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 dest = (HOST, PORT)
 print('Para sair use CTRL+X\n')
 msg = input("Digite sua mensagem: ")
+msg2 = raw_input()
+
+print(type(msg))
+print(type(msg2))
 while msg != '\x18':
-    udp.sendto (msg, dest)
+    udp.sendto(msg, dest)
     msg = input("Digite sua mensagem: ")
     udp.close()
