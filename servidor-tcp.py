@@ -1,5 +1,4 @@
 import socket
-print'Ze é lindao'
 
 HOST = '' # Endereco IP do Servidor
 PORT = 6500 # Porta que o Servidor esta
