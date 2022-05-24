@@ -1,6 +1,6 @@
 import socket
 
-print("Ze é lindao")
+print 'Ze é lindao'
 HOST = '192.168.128.1' # Endereco IP do Servidor
 PORT = 6500 # Porta que o Servidor esta
 tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
