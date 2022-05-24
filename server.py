@@ -8,4 +8,4 @@ udp.bind(orig)
 while True:
     msg, cliente = udp.recvfrom(1024)
     print(cliente, msg)
-    udp.close()
+udp.close()
