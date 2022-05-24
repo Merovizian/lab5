@@ -8,7 +8,7 @@ msg2 = raw_input("Digite sua mensagem: ")
 
 
 print(type(msg2))
-while msg <> '\x18':
+while msg2 <> '\x18':
     udp.sendto(msg, dest)
-    msg = raw_input("Digite sua mensagem: ")
+    msg2 = raw_input("Digite sua mensagem: ")
     udp.close()
