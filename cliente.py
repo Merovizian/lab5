@@ -9,6 +9,6 @@ msg2 = raw_input("Digite sua mensagem: ")
 
 print(type(msg2))
 while msg2 <> '\x18':
-    udp.sendto(msg, dest)
+    udp.sendto(msg2, dest)
     msg2 = raw_input("Digite sua mensagem: ")
     udp.close()
